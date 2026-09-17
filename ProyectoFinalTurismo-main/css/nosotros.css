@@ -1,0 +1,77 @@
+/*HERO NOSOTROS */
+.hero-nosotros {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("https://images.unsplash.com/photo-1501785888041-af3ef285b470") center/cover no-repeat;
+  color: white;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.hero-nosotros h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero-nosotros p {
+  font-size: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+/*HISTORIA*/
+.historia {
+  padding: 80px 0;
+}
+
+.historia h2 {
+  color: var(--azul-profundo);
+  font-weight: 700;
+}
+
+/*VALORES*/
+.valores {
+  background: #0B3C5D;
+  padding: 80px 0;
+  color: white;
+}
+
+.valor-card {
+  padding: 30px;
+  transition: 0.3s;
+  color: white;
+}
+
+.valor-card i {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.valor-card:hover {
+  transform: translateY(-8px);
+}
+
+/* FOOTER */
+footer {
+  background: var(--azul-profundo);
+  color: var(--menta);
+}
+
+footer h5 {
+  color: white;
+  font-weight: 700;
+}
+
+footer a {
+  color: var(--menta);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--turquesa);
+  color: var(--menta);
+}

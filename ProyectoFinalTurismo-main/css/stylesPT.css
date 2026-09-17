@@ -1,0 +1,147 @@
+/*HERO*/
+#hero {
+  position: relative;
+  height: 90vh;
+  background: linear-gradient(rgba(6,90,130,0.6), rgba(6,90,130,0.6)),
+    url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1600&fit=crop') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.btn-hero {
+  background: var(--turquesa);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 36px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-hero:hover {
+  background: var(--coral-boton);
+  color: white;
+}
+
+/*SEARCH BAR*/
+.search-bar {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  margin-top: -50px;
+  border: 2px solid var(--menta);
+}
+
+.btn-primary {
+  background-color: var(--turquesa);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--coral-boton);
+}
+
+/*SECCIÓN DESTINOS*/
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--azul-profundo);
+}
+
+.section-sub {
+  color: #6c757d;
+}
+
+.destino-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.destino-card:hover {
+  transform: translateY(-8px);
+}
+
+.badge-precio {
+  background: var(--coral-boton);
+  color: white;
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.destino-img-wrap {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  width: 100%;
+}
+
+.destino-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.4s;
+}
+
+.destino-card:hover .destino-img {
+  transform: scale(1.06);
+}
+
+.destino-info {
+  display: grid;
+  gap: 6px;
+  grid-template-columns: 1fr 1fr;
+  color: #5f6b72;
+  font-size: 0.86rem;
+}
+
+/*ESTADÍSTICAS*/
+.stats-section {
+  background: linear-gradient(135deg, var(--azul-profundo), var(--turquesa));
+  color: white;
+}
+
+.stat-item h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+/* FOOTER */
+footer {
+  background: var(--azul-profundo);
+  color: var(--menta);
+}
+
+footer h5 {
+  color: white;
+  font-weight: 700;
+}
+
+footer a {
+  color: var(--menta);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--turquesa);
+  color: var(--menta);
+}
