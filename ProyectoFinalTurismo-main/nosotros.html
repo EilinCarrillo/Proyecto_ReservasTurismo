@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosotros | TurAventura</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/nosotros.css">
+</head>
+
+<!-- Botón flotante WhatsApp -->
+<a href="https://wa.me/573001698105?text=¡Hola!%20Estoy%20interesado%20en%20conocer%20más%20sobre%20los%20destinos%20y%20paquetes%20turísticos%20de%20TurAventura%20🌍" 
+   target="_blank" 
+   class="whatsapp-float" 
+   title="Chatea con nosotros">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="fas fa-plane-departure me-2"></i>TurAventura
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+          <li class="nav-item"><a class="nav-link" href="index.html#destinos">Destinos</a></li>
+          <li class="nav-item"><a class="nav-link" href="planes.html">Paquetes</a></li>
+          <li class="nav-item"><a class="nav-link active" href="nosotros.html">Nosotros</a></li>
+          <div class="ms-auto d-flex gap-2 align-items-center">
+            <a id="btnLogin" class="btn btn-outline-light" href="login.html">Iniciar sesión</a>
+            <a id="btnReservar" class="btn btn-info d-none" href="reservas.html">Reservar aquí</a>
+            <a id="btnAdmin" class="btn btn-warning d-none" href="admin.html">Panel admin</a>
+            <button id="btnLogout" class="btn btn-logout d-none">Cerrar sesión</button>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero-nosotros">
+    <div class="container text-center">
+      <h1>Conoce TurAventura</h1>
+      <p>Creamos experiencias de viaje inolvidables para que descubras el mundo de una forma única.</p>
+    </div>
+  </section>
+
+  <!-- HISTORIA -->
+  <section class="historia container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800&fit=crop"
+             class="img-fluid rounded shadow" alt="Nuestro equipo">
+      </div>
+      <div class="col-md-6">
+        <h2>Nuestra Historia</h2>
+        <p>TurAventura nació con el objetivo de ofrecer viajes increíbles, accesibles y seguros.
+           Nuestro equipo está formado por apasionados del turismo que creen que viajar transforma vidas.</p>
+        <p>Hoy ayudamos a miles de viajeros a descubrir destinos increíbles, vivir aventuras y crear recuerdos inolvidables.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALORES -->
+  <section class="valores">
+    <div class="container">
+      <h2 class="text-center mb-5">Nuestros Valores</h2>
+      <div class="row text-center">
+        <div class="col-md-4 valor-card">
+          <i class="fas fa-globe"></i>
+          <h4>Exploración</h4>
+          <p>Descubrir nuevos lugares y culturas.</p>
+        </div>
+        <div class="col-md-4 valor-card">
+          <i class="fas fa-heart"></i>
+          <h4>Pasión</h4>
+          <p>Amamos crear experiencias únicas.</p>
+        </div>
+        <div class="col-md-4 valor-card">
+          <i class="fas fa-users"></i>
+          <h4>Comunidad</h4>
+          <p>Conectar personas a través del turismo.</p>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- ← etiqueta cerrada correctamente -->
+
+  <!-- FOOTER -->
+  <footer id="contacto" class="pt-5 pb-3">
+    <div class="container">
+      <div class="row g-4 mb-4">
+        <div class="col-md-4">
+          <h5><i class="fas fa-plane-departure me-2"></i>TurAventura</h5>
+          <p class="mt-2" style="font-size:0.9rem;">Tu agencia de confianza para reservas de turismo.</p>
+        </div>
+        <div class="col-md-2">
+          <h5>Compañía</h5>
+          <ul class="list-unstyled mt-2">
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h5>Servicios</h5>
+          <ul class="list-unstyled mt-2">
+            <li><a href="#">Vuelos</a></li>
+            <li><a href="#">Hoteles</a></li>
+            <li><a href="planes.html">Paquetes</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contacto</h5>
+          <ul class="list-unstyled mt-2">
+            <li><i class="fas fa-phone me-2 text-primary"></i>+57 300 123 4567</li>
+            <li><i class="fas fa-envelope me-2 text-primary"></i>hola@turaventura.co</li>
+            <li><i class="fas fa-map-marker-alt me-2 text-primary"></i>Medellín, Antioquia</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom text-center py-3">
+        <small>© 2026 TurAventura. Todos los derechos reservados.</small>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/auth-nav.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const logueado = localStorage.getItem("usuarioLogueado");
+      if (logueado === "true") {
+        document.getElementById("btnLogin").classList.add("d-none");
+        document.getElementById("btnReservar").classList.remove("d-none");
+        document.getElementById("btnLogout").classList.remove("d-none");
+      }
+      document.getElementById("btnLogout").addEventListener("click", function () {
+        localStorage.removeItem("usuarioLogueado");
+        localStorage.removeItem("nombreUsuario");
+        window.location.href = "index.html";
+      });
+    });
+  </script>
+</body>
+</html>

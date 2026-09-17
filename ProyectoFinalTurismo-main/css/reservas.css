@@ -1,0 +1,49 @@
+/*FONDO RESERVAS */
+body {
+  background-color: #A8DADC;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/*CARD FORMULARIO*/
+.formulario-card {
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid #A8DADC;
+}
+
+.titulo-formulario {
+  color: #065A82;
+  font-weight: bold;
+}
+
+/*BOTÓN RESERVAR*/
+.btn-reservar {
+  background-color: #008991;
+  color: white;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-reservar:hover {
+  background-color: #065A82;
+  color: white;
+}
+
+/*INPUTS */
+.form-control:focus {
+  border-color: #008991;
+  box-shadow: 0 0 5px rgba(0,137,145,0.5);
+}
+
+input.error {
+  border: 2px solid #FFAAA5;
+}
+
+/*MENSAJE ÉXITO */
+.alert-exito {
+  background-color: #A8DADC;
+  color: #065A82;
+  border: none;
+  border-radius: 10px;
+}

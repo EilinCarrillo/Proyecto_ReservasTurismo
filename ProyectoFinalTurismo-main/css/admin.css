@@ -1,0 +1,175 @@
+body {
+  background: #f4f8f9;
+}
+
+.admin-shell {
+  padding-bottom: 48px;
+}
+
+.admin-header {
+  background: linear-gradient(135deg, var(--azul-profundo), var(--turquesa));
+  color: white;
+  margin-bottom: 28px;
+  padding: 48px min(5vw, 56px);
+}
+
+.admin-header h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  margin: 0 0 8px;
+}
+
+.admin-header p {
+  margin: 0;
+  max-width: 720px;
+}
+
+.admin-kicker {
+  color: var(--menta);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ─── Tarjeta de identificación del admin ─── */
+.admin-id-card {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 12px;
+  color: white;
+  padding: 16px 20px;
+  backdrop-filter: blur(6px);
+}
+
+.admin-avatar-icon {
+  background: rgba(255,255,255,0.2);
+  border-radius: 50%;
+  width: 52px; height: 52px;
+  display: flex; align-items: center; justify-content: center;
+  color: white;
+  flex-shrink: 0;
+}
+
+/* ─── Stats ─── */
+.admin-stat,
+.admin-panel {
+  background: white;
+  border: 1px solid #dbe8ea;
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(6, 90, 130, 0.08);
+}
+
+.admin-stat {
+  padding: 20px;
+}
+
+.admin-stat i {
+  color: var(--turquesa);
+}
+
+.admin-stat strong {
+  color: var(--azul-profundo);
+}
+
+.admin-panel {
+  padding: 22px;
+}
+
+/* ─── Tabs ─── */
+#adminTabs {
+  background: rgb(65, 80, 214);
+  border-radius: 8px 8px 0 0;
+  border: 1px solid #dbe8ea;
+  border-bottom: 2px solid #000607;
+  padding: 6px 8px 0;
+  gap: 4px;
+}
+
+#adminTabs .nav-link {
+  color: #111827;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.01em;
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 6px 6px 0 0;
+  padding: 10px 20px;
+  transition: all 0.2s;
+  background: transparent;
+}
+
+#adminTabs .nav-link:hover {
+  color: #065a82;
+  border-bottom-color: #065a82;
+  background: rgba(6, 90, 130, 0.06);
+}
+
+#adminTabs .nav-link.active {
+  color: #065a82;
+  border-bottom: 3px solid #065a82;
+  background: #eef6fa;
+  font-weight: 800;
+}
+
+.tab-pane-admin {
+  animation: fadeInUp 0.2s ease;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ─── Panel title ─── */
+.panel-title {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.panel-title h2 {
+  color: var(--azul-profundo);
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+/* ─── User rows ─── */
+.user-row,
+.destino-admin-card {
+  border: 1px solid #e1ecee;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.user-row + .user-row {
+  margin-top: 10px;
+}
+
+/* ─── FOOTER ─── */
+footer {
+  background: var(--azul-profundo);
+  color: var(--menta);
+}
+
+footer h5 {
+  color: white;
+  font-weight: 700;
+}
+
+footer a {
+  color: var(--menta);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--turquesa);
+  color: var(--menta);
+}
